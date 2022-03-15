@@ -255,13 +255,13 @@ button {
 main {
   background-image: url("../img/moon.jpg") !important;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   display: grid;
   place-items: center;
 
   .mint-container {
-    margin-top: 20rem;
+    margin-top: 40rem;
     background-color: rgba(0, 0, 0, 0.5) !important;
     display: flex;
     flex-direction: column;
