@@ -14,9 +14,9 @@ const Actions = () => {
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
-  const DROP_SIZE = 300;
-  const EGLD_PRICE = 0.5;
-  const LKMEX_PRICE = 450000;
+  const DROP_SIZE = 105;
+  const EGLD_PRICE = 0.8;
+  const LKMEX_PRICE = 800000;
 
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
@@ -109,7 +109,7 @@ const Actions = () => {
     if (self.id === "minus") {
       if (quantity > 1) setQuantity(quantity - 1);
     } else if (self.id === "plus") {
-      if (quantity < 12) setQuantity(quantity + 1);
+      if (quantity < 2) setQuantity(quantity + 1);
     }
   };
 
