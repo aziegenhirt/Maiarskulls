@@ -10,7 +10,7 @@ const Actions = () => {
   const { account } = Dapp.useContext();
   const newTransaction = useNewTransaction();
 
-  const [nftsMinted, setNftsMinted] = React.useState(300);
+  const [nftsMinted, setNftsMinted] = React.useState(105);
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
@@ -21,7 +21,7 @@ const Actions = () => {
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
     const data = await fetch(url).then((res) => res.json());
-    isNaN(data) ? setNftsMinted(9) : setNftsMinted(9 - data);
+    isNaN(data) ? setNftsMinted(105) : setNftsMinted(105 - data);
   };
 
   const getTimeLeft = () => {
