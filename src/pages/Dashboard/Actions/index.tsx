@@ -10,11 +10,11 @@ const Actions = () => {
   const { account } = Dapp.useContext();
   const newTransaction = useNewTransaction();
 
-  const [nftsMinted, setNftsMinted] = React.useState(105);
+  const [nftsMinted, setNftsMinted] = React.useState(0);
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
-  const DROP_SIZE = 105;
+  const DROP_SIZE = 0;
   const EGLD_PRICE = 0.8;
   const LKMEX_PRICE = 1100000;
 
