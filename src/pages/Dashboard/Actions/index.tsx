@@ -16,12 +16,12 @@ const Actions = () => {
 
   const DROP_SIZE = 105;
   const EGLD_PRICE = 0.8;
-  const LKMEX_PRICE = 800000;
+  const LKMEX_PRICE = 1100000;
 
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
     const data = await fetch(url).then((res) => res.json());
-    isNaN(data) ? setNftsMinted(105) : setNftsMinted(105 - data);
+    isNaN(data) ? setNftsMinted(50) : setNftsMinted(50 - data);
   };
 
   const getTimeLeft = () => {
