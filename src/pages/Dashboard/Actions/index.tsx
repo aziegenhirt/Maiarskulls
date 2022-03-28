@@ -21,7 +21,7 @@ const Actions = () => {
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
     const data = await fetch(url).then((res) => res.json());
-    isNaN(data) ? setNftsMinted(50) : setNftsMinted(50 - data);
+    isNaN(data) ? setNftsMinted(0) : setNftsMinted(0 - data);
   };
 
   const getTimeLeft = () => {
