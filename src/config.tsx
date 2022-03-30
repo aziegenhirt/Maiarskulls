@@ -1,6 +1,6 @@
 import * as Dapp from "@elrondnetwork/dapp";
 
-export const dAppName = "EGLD Rocks";
+export const dAppName = "Maiar Skulls";
 export const decimals = 2;
 export const denomination = 18;
 export const gasPrice = 1000000000;
