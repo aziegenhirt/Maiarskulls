@@ -282,8 +282,8 @@ main {
 .home-login {
   background: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  align-items: center;
 }
 
 .countdown {
