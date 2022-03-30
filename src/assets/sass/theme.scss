@@ -27,7 +27,7 @@ html {
 }
 
 .opacity-6 {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .dapp-icon {
@@ -64,7 +64,7 @@ html {
 /* Dashboard
 -------------------------------------------------- */
 .action-btn {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -257,14 +257,14 @@ main {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  display: flex;
+  display: inline-block;
   place-items: center;
 
   .mint-container {
     margin-top: 30rem;
     background-color: rgba(0, 0, 0, 0.5) !important;
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -282,7 +282,7 @@ main {
 .home-login {
   background: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
-  display: flex;
+  display: inline-block;
 }
 
 .countdown {
