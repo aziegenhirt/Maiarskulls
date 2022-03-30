@@ -14,9 +14,9 @@ const Actions = () => {
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
-  const DROP_SIZE = 105;
-  const EGLD_PRICE = 0.8;
-  const LKMEX_PRICE = 1100000;
+  const DROP_SIZE = 30;
+  const EGLD_PRICE = 1;
+  const LKMEX_PRICE = 1400000;
 
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
