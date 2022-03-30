@@ -282,7 +282,7 @@ main {
 .home-login {
   background: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
-  display: contents;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
