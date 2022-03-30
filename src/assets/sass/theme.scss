@@ -64,12 +64,12 @@ html {
 /* Dashboard
 -------------------------------------------------- */
 .action-btn {
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: $white;
-  margin: 0 7px;
+  margin: 0px;
 
   button {
     border-radius: 50%;
