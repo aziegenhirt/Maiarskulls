@@ -14,14 +14,14 @@ const Actions = () => {
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
-  const DROP_SIZE = 30;
+  const DROP_SIZE = 15;
   const EGLD_PRICE = 1;
   const LKMEX_PRICE = 1500000;
 
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
     const data = await fetch(url).then((res) => res.json());
-    isNaN(data) ? setNftsMinted(30) : setNftsMinted(30 - data);
+    isNaN(data) ? setNftsMinted(15) : setNftsMinted(15 - data);
   };
 
   const getTimeLeft = () => {
