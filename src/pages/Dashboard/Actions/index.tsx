@@ -16,7 +16,7 @@ const Actions = () => {
 
   const DROP_SIZE = 10;
   const EGLD_PRICE = 2;
-  const LKMEX_PRICE = 3100000;
+  const LKMEX_PRICE = 3200000;
 
   const getInfo = async () => {
     const url = `${network.apiAddress}/accounts/${contractAddress}/nfts/count`;
