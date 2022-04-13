@@ -14,7 +14,7 @@ const Actions = () => {
   const [quantity, setQuantity] = React.useState(1);
   const [secondsLeft, setSecondsLeft] = React.useState(0);
 
-  const DROP_SIZE = 11;
+  const DROP_SIZE = 10;
   const EGLD_PRICE = 2;
   const LKMEX_PRICE = 3100000;
 
